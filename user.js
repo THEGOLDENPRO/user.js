@@ -1215,8 +1215,18 @@ user_pref("network.dns.skipTRR-when-parental-control-enabled", false);
 /* END: internal custom pref to test for syntax errors ***/
 user_pref("_user.js.parrot", "SUCCESS: No no he's not dead, he's, he's restin'!");
 
+// Privacy overrides
+user_pref("privacy.clearOnShutdown.cookies", false);
+user_pref("privacy.clearOnShutdown.history", false);
 user_pref("privacy.clearOnShutdown.sessions", false);
 user_pref("privacy.resistFingerprinting.letterboxing", false);
 user_pref("browser.display.use_system_colors", true);
 
+// Preferences
+user_pref("browser.startup.page", 1);
 user_pref("browser.startup.homepage", "https://www.google.com");
+user_pref("browser.urlbar.suggest.topsites", false);
+
+// OPSEC Preferences
+user_pref("browser.urlbar.suggest.history", false);
+user_pref("browser.urlbar.suggest.bookmark", false);
