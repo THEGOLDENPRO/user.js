@@ -1214,3 +1214,9 @@ user_pref("network.dns.skipTRR-when-parental-control-enabled", false);
 
 /* END: internal custom pref to test for syntax errors ***/
 user_pref("_user.js.parrot", "SUCCESS: No no he's not dead, he's, he's restin'!");
+
+user_pref("privacy.clearOnShutdown.sessions", false);
+user_pref("privacy.resistFingerprinting.letterboxing", false);
+user_pref("browser.display.use_system_colors", true);
+
+user_pref("browser.startup.homepage", "https://www.google.com");
