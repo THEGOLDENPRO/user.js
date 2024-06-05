@@ -1,3 +1,6 @@
+> [!CAUTION]
+> If a privacy, security and anti-tracking user.js is what you are looking for DO NOT use my fork. Use the [original user.js](https://github.com/arkenfox/user.js) from arkenfox instead. This fork only exists for the ease of syncing some preferences throughout my machines.
+
 ### 🟪  user.js
 A `user.js` is a configuration file that can control Firefox settings - for a more technical breakdown and explanation, you can read more in the [wiki](https://github.com/arkenfox/user.js/wiki/2.1-User.js)
 
