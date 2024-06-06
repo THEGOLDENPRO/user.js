@@ -15,7 +15,7 @@ user_pref("browser.search.suggest.enabled", true);
 user_pref("browser.urlbar.suggest.searches", true);
 
 // Weird fixes
-user_pref("widget.chrome.allow-gtk-dark-theme", true);
+user_pref("widget.chrome.allow-gtk-dark-theme", true); // dark mode fix
 
 // OPSEC Preferences
 user_pref("browser.urlbar.suggest.history", false);
